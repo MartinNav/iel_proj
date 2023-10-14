@@ -9,6 +9,9 @@ R(6) = 720
 R(7) = 260
 R(8) = 180
 ------------------
+------------------
+------------------
+------------------
 U(12) = 180
 R(56) = 168.51
 R(78) = 440
@@ -23,4 +26,16 @@ R(B56) = 227.476155539252
 
 R(BC456) = 134.007794466351
 R(EKV) = 825.387104811179
+
+I = 0.218079491369299
+
+U(RA) = 54.8206721407651
+U(RBC456) = 29.2243516567434
+U(R78) = 95.9549762024915
+
+------------------
+
+// IR(2) is most likely wrong I will recalculate it tomorow
+// https://www.youtube.com/watch?v=QlEaNmHjjxw&list=PL_eb8wrKJwYv9WteSQHHNmS5uzXQvILEY&index=3&ab_channel=P%C5%99edn%C3%A1%C5%A1kyFITVUT
+IR(2) = 0.0676798421490927
 
