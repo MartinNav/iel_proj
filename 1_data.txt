@@ -37,5 +37,5 @@ U(R78) = 95.9549762024915
 
 // IR(2) is most likely wrong I will recalculate it tomorow
 // https://www.youtube.com/watch?v=QlEaNmHjjxw&list=PL_eb8wrKJwYv9WteSQHHNmS5uzXQvILEY&index=3&ab_channel=P%C5%99edn%C3%A1%C5%A1kyFITVUT
-IR(2) = 0.0676798421490927
-
+I(R2) = 0.0676798421490927
+U(R2) = 176.644388009132
