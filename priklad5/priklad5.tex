@@ -38,5 +38,16 @@ Charakteristická rovnice:
   \lambda =-\displaystyle\frac{1}{RC}
 \]
 Očekávané řešení $u_{C}(t)=K(t)e^{\lambda t} = K(t)e^{-\frac{t}{RC}}$\\
+Zderivujeme $u_{c}(t)$:
+\[
+  u_{c}(t) = K(t)e^{-\frac{t}{RC}}
+\]
+\[
+  u_{c}'(t)=K'(t)e^{-\frac{t}{RC}}- \displaystyle\frac{1}{RC}*K(t)e^{-\frac{t}{RC}}
+\]
+Nyní $u_{C}(t)$ a $u_{c}'(t)$ dosadíme do $u_{C}'+\frac{u_{C}}{RC}=\frac{U}{RC}$
+\[
+  K'(t)e^{-\frac{1}{RC}}-\displaystyle\frac{K(t)}{RC}e^{-\frac{1}{RC}}+\displaystyle\frac{K(t)e^{-\frac{t}{RC}}}{RC}=\displaystyle\frac{U}{RC}
+\]
 
 \end{document}
