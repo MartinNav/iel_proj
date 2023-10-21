@@ -3,3 +3,5 @@ C = 8
 R = 100
 UC(0) = 5
 
+//https://www.youtube.com/watch?v=T9OSUSmSaJI&list=PL_eb8wrKJwYv9WteSQHHNmS5uzXQvILEY&index=35
+
