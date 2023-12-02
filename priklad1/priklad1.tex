@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+\begin{tabular}{| c | c | c | c | c | c | c | c | c | c |}
+  \hline
+   $U_{1}$[V] & $U_{2}$ [V] & $R_{1}$ [$\Omega$]& $R_{2}$ [$\Omega$]& $R_{3}$ [$\Omega$]& $R_{4}$ [$\Omega$]& $R_{5}$ [$\Omega$]& $R_{6}$ [$\Omega$]& $R_{7}$ [$\Omega$]& $R_{8}$ [$\Omega$]\\
+  \hline
+  100 & 80 & 450 & 810 & 190 & 220 & 220 & 720 & 260 & 180\\
+  \hline
+\end{tabular}\\
+\[
+  U_{12} = U_{1} + U_{2} = 100 + 80 = 180V
+\]
+\[
+  R_{56} = R_{5} + R_{6} = 220 + 720 = 940\Omega
+\]
+\[
+  R_{78} = R_{7} + R_{8} = 260 + 180 = 440\Omega
+\]
+Nyní provedeme transfiguraci  trojuhelník hvězda
+\[
+  R_{A} = \displaystyle\frac{R_{1}R_{2}}{R_{1}+R_{2}+R_{3}}
+  = \displaystyle\frac{450 \cdot 810}{450 + 810 + 190}
+  = \displaystyle\frac{364500}{1450}
+  = 251.3793103448276 \Omega
+\]
+\[
+  R_{B} = \displaystyle\frac{R_{1}R_{3}}{R_{1}+R_{2}+R_{3}}
+  = \displaystyle\frac{450 \cdot 190}{450 + 810 + 190}
+  = \displaystyle\frac{85500}{1450}
+  = 58.96551724137931 \Omega
+\]
+\[
+  R_{C} = \displaystyle\frac{R_{2}R_{3}}{R_{1}+R_{2}+R_{3}}
+  = \displaystyle\frac{810 \cdot 190}{450 + 810 + 190}
+  = \displaystyle\frac{153900}{1450}
+  = 106.13793103448276 \Omega
+\]
+\end{document}
