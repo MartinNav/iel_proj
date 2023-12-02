@@ -9,7 +9,7 @@
   \hline
 \end{tabular}\\
 \\
-\textbf{Krok 1} - [TODO: write description]\\
+Vyřešíme za využití Theveninovy věty.\\
 \[
   R_{23} = R_{2} + R_{3} = 315 + 615 = 930 \Omega
 \]
@@ -22,7 +22,7 @@
 \[
   R_{i} = \displaystyle\frac{R_{5} \times R_{1234}}{R_{5} + R_{1234}} = \displaystyle\frac{460 \times 330,81081081081}{460 + 330,81081081081} = 192.4265208475732 \Omega
 \]
-$\textbf{Krok 2}$ Vypočítáme $U_{i}$ pomocí $I_{B}$\\
+Vypočítáme $I_{B}$ metodou smyčkových proudů sestavením matice.\\
 \[
   \begin{pmatrix}
     R_{1}+R_{2}+R_{3} & -R_{2}-R_{3}\\
@@ -62,7 +62,34 @@ Nyní vypočteme determinant matice.
     1180 & -930\\
     -930 & 1690\\
   \end{vmatrix}
-  = 2859100
+  = 1129300
+\]
+\[
+  M_{I_{B}} =
+  \begin{vmatrix}
+    1180 & 180\\
+    -930 & 0\\
+  \end{vmatrix}
+  = 167400
+\]
+Nyní použjeme spočtené determinanty k výpočtu $I_B$:
+\[
+  I_{B} = \displaystyle\frac{M_{I_{B}}}{M}
+  = \displaystyle\frac{167400}{1129300}
+  = \displaystyle\frac{1674}{11293}A
+\]
+\[
+  U_{i} = U_{R_{5}} = I_{B} \cdot R_{5} = \displaystyle\frac{1674}{11293}\cdot 450
+  = \displaystyle\frac{753300}{11293} = 66.70503851943683 V
+\]
+\[
+  I_{R_{6}} = \displaystyle\frac{U_{i}}{R_{i}+R_{6}}
+  = \displaystyle\frac{66.70503851943683}{192.4265208475732 + 120}
+  = 0.21350632570652A
+  = 213.50632570652mA
+\]
+\[
+  U_{R_{6}} = I_{R_{6}} \cdot R_{6} = 0.21350632570652 \cdot 120 = \textbf{25.6207590847824V}
 \]
 
 \end{document}
