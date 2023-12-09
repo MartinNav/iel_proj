@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.5)  9 DEC 2023 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.5)  9 DEC 2023 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -150,21 +150,37 @@ r/m/n/10 00779446635116 + 440 = 825\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3871048111
  []
 
 
-Overfull \hbox (167.71858pt too wide) detected at line 62
-\OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 I \OMS/cmsy/m/n/10 ^^A 
-\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 R[]\OT
-1/cmr/m/n/10 )[]  = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 21807949136929883 \OMS/c
-msy/m/n/10 ^^A \OT1/cmr/m/n/10 (134\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0077944663
-5116 + 251\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3793103448276) = 84\OML/cmm/m/it/10
- :\OT1/cmr/m/n/10 04502379750852\OML/cmm/m/it/10 V
- []
-
-
-Overfull \hbox (11.51846pt too wide) detected at line 67
+Overfull \hbox (25.63411pt too wide) detected at line 67
 \OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 I \OMS/cmsy/m/n/10 ^^A 
 \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 21807
 949136929883 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 251\OML/cmm/m/it/10 :\OT1/cmr
-/m/n/10 37931034482768276 = 54\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 82067214076514
+/m/n/10 37931034482768276 = 54\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 82067214076514\
+OML/cmm/m/it/10 V
+ []
+
+
+Overfull \hbox (38.70863pt too wide) detected at line 72
+\OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 I \OMS/cmsy/m/n/10 ^^A 
+\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 21807
+949136929883 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 134\OML/cmm/m/it/10 :\OT1/cmr
+/m/n/10 00779446635116 = 29\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 224351656743398\OM
+L/cmm/m/it/10 V
+ []
+
+
+Overfull \hbox (27.0457pt too wide) detected at line 82
+\OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 I[] \OMS/cmsy/m/n/10 ^^
+A \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 089
+60733749688714 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 106\OML/cmm/m/it/10 :\OT1/c
+mr/m/n/10 13793103448276 = 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 510737407428229\O
+ML/cmm/m/it/10 V
+ []
+
+
+Overfull \hbox (36.38928pt too wide) detected at line 87
+\OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 + \
+OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = 9\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 510737
+407428229 + 54\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 82067214076514 = []
  []
 
 [1
@@ -176,22 +192,23 @@ L3 programming layer <2023-06-05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1142 strings out of 475735
- 17321 string characters out of 5784786
- 1861759 words of memory out of 5000000
- 21951 multiletter control sequences out of 15000+600000
- 513841 words of font info for 36 fonts, out of 8000000 for 9000
+ 1148 strings out of 475735
+ 17380 string characters out of 5784786
+ 1863759 words of memory out of 5000000
+ 21954 multiletter control sequences out of 15000+600000
+ 514768 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,8n,65p,220b,111s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on priklad1.pdf (1 page, 57533 bytes).
+ 56i,8n,65p,220b,120s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on priklad1.pdf (1 page, 71643 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
