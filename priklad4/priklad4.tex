@@ -8,5 +8,44 @@
   3 & 4 & 10 & 13 & 220 & 70 & 230 & 85 & 75\\ 
   \hline
 \end{tabular}\\
+\\
+Nejprve si převedeme hodnoty na zakladní jednotky\\
+\[
+  L_1 = 220 mH = 0.22 H
+\]
+\[
+  L_2 = 70 mH = 0.07 H
+\]
+\[
+  C_1 = 230 mH = 0.00023 F
+\]
+\[
+  C_2 = 85 mH = 0.000085 F
+\]
+\[
+  \omega = 2\pi f 
+  = 2 \cdot \pi 75
+  = 471.23889803846896 // Add units 
+\]
+\[
+  Z_{L1} = 1j \omega L_1
+  = 1j \cdot 471.23889803846896 \cdot 0.22 
+  = 103.67255756846318j\ \Omega
+\]
+\[
+  Z_{L2} = 1j \omega L_2
+  = 1j \cdot 471.23889803846896 \cdot 0.07 
+  = 32.98672286269283j \ \Omega
+\]
+\[
+  Z_{C1} = -\displaystyle\frac{1j}{\omega C_1}
+  = - \displaystyle\frac{1j}{471.23889803846896 \cdot 0.00023}
+  = 9.226373512573643j\ \Omega
+\]
+\[
+  Z_{C2} = -\displaystyle\frac{1j}{\omega C_2}
+  = - \displaystyle\frac{1j}{471.23889803846896 \cdot 0.000085}
+  = 24.965481269316918j\ \Omega
+\]
 
 \end{document}
