@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.5)  13 DEC 2023 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.5)  13 DEC 2023 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -942,17 +942,27 @@ File: fig/Pr2.pdf Graphic file (type pdf)
 <use fig/Pr2.pdf>
 Package pdftex.def Info: fig/Pr2.pdf  used on input line 3.
 (pdftex.def)             Requested size: 219.31883pt x 128.47968pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 3--26
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[3 <./fig/Pr2.pdf>] (./03-pr3.tex
+<fig/Pr2_1.pdf, id=67, 513.83968pt x 312.20638pt>
+File: fig/Pr2_1.pdf Graphic file (type pdf)
+<use fig/Pr2_1.pdf>
+Package pdftex.def Info: fig/Pr2_1.pdf  used on input line 11.
+(pdftex.def)             Requested size: 256.9192pt x 156.1028pt.
+<fig/Pr2_2.pdf, id=68, 239.93639pt x 121.4136pt>
+File: fig/Pr2_2.pdf Graphic file (type pdf)
+<use fig/Pr2_2.pdf>
+Package pdftex.def Info: fig/Pr2_2.pdf  used on input line 46.
+(pdftex.def)             Requested size: 239.93579pt x 121.4133pt.
+[3 <./fig/Pr2.pdf> <./fig/Pr2_1.pdf>]) [4 <./fig/Pr2_2.pdf>] (./03-pr3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 
  []
 
-<fig/Pr3.pdf, id=76, 449.68pt x 399.4925pt>
+<fig/Pr3.pdf, id=101, 449.68pt x 399.4925pt>
 File: fig/Pr3.pdf Graphic file (type pdf)
 <use fig/Pr3.pdf>
 Package pdftex.def Info: fig/Pr3.pdf  used on input line 3.
@@ -962,7 +972,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--27
 
  []
 
-[4 <./fig/Pr3.pdf>] (./04-pr4.tex
+[5 <./fig/Pr3.pdf>] (./04-pr4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 
  []
@@ -972,7 +982,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<fig/Pr4.pdf, id=86, 405.515pt x 281.05pt>
+<fig/Pr4.pdf, id=111, 405.515pt x 281.05pt>
 File: fig/Pr4.pdf Graphic file (type pdf)
 <use fig/Pr4.pdf>
 Package pdftex.def Info: fig/Pr4.pdf  used on input line 3.
@@ -982,13 +992,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--28
 
  []
 
-[5{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc} <./fig/Pr4.pdf>]
+[6{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc} <./fig/Pr4.pdf>]
 (./05-pr5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 
  []
 
-<fig/Pr5.pdf, id=98, 270.00874pt x 240.9pt>
+<fig/Pr5.pdf, id=123, 270.00874pt x 240.9pt>
 File: fig/Pr5.pdf Graphic file (type pdf)
 <use fig/Pr5.pdf>
 Package pdftex.def Info: fig/Pr5.pdf  used on input line 3.
@@ -998,7 +1008,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--29
 
  []
 
-[6 <./fig/Pr5.pdf>] (./06-tab.tex) [7] (./00-projekt.aux)
+[7 <./fig/Pr5.pdf>] (./06-tab.tex) [8] (./00-projekt.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
@@ -1007,13 +1017,13 @@ Package rerunfilecheck Info: File `00-projekt.out' has not changed.
 (rerunfilecheck)             Checksum: 15B62548BBD7FEDDC7239CAFEF800FF9;620.
  ) 
 Here is how much of TeX's memory you used:
- 41681 strings out of 475735
- 999179 string characters out of 5784786
+ 41696 strings out of 475735
+ 999511 string characters out of 5784786
  1865759 words of memory out of 5000000
- 61929 multiletter control sequences out of 15000+600000
+ 61943 multiletter control sequences out of 15000+600000
  560154 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,11n,117p,410b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,11n,117p,410b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/pu
@@ -1021,10 +1031,10 @@ blic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmsy10.pfb>
-Output written on 00-projekt.pdf (7 pages, 265589 bytes).
+Output written on 00-projekt.pdf (8 pages, 297460 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 16 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
