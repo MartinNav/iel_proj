@@ -1,3 +1,100 @@
 \section{Příklad 3}
 % Jako parametr zadejte skupinu (A-H)
 \tretiZadani{H}
+\[
+  G_1 = \displaystyle\frac{1}{R_1}
+  = \displaystyle\frac{1}{47}S
+\]
+\[
+  G_2 = \displaystyle\frac{1}{R_2}
+  = \displaystyle\frac{1}{39}S
+\]
+\[
+  G_3 = \displaystyle\frac{1}{R_3}
+  = \displaystyle\frac{1}{58}S
+\]
+\[
+  G_4 = \displaystyle\frac{1}{R_4}
+  = \displaystyle\frac{1}{28}S
+\]
+\[
+  G_5 = \displaystyle\frac{1}{R_5}
+  = \displaystyle\frac{1}{25}S
+\]
+\[
+  I_3 = \displaystyle\frac{U}{R_4 + R_5}
+  = \displaystyle\frac{130}{28 + 25}
+  = \displaystyle\frac{130}{53}A
+  = 2.452830188679245A
+\]
+ Nyní sestavíme rovnici pro jednotlivé uzly
+ \[
+   A)G_1 U_A + G_2 (U_A - U_B ) = -I_1
+ \]
+ Nyní si vytvoříme matici za jejiž pomocí vypočteme U
+\[
+  \begin{pmatrix}
+    -G_1-G_2 & G_2 & 0\\
+    G_2 & -G_2-G_3 & G_3\\
+    0 & G_3 & -G_3-G_4-G_5\\
+  \end{pmatrix}^{-1}
+  \times
+  \begin{pmatrix}
+    -I_1\\
+    -I_2\\
+    I_2-\displaystyle\frac{U}{R_5}\\
+  \end{pmatrix}
+\]
+Dosadíme hodnoty a vypočteme U\\
+\[
+  \begin{pmatrix}
+    -\displaystyle\frac{1}{47} -\displaystyle\frac{1}{39} & \displaystyle\frac{1}{39} & 0\\
+    \displaystyle\frac{1}{39} & -\displaystyle\frac{1}{39}-\displaystyle\frac{1}{58} & \displaystyle\frac{1}{58}\\
+    0 & \displaystyle\frac{1}{58} & -\displaystyle\frac{1}{58}-\displaystyle\frac{1}{28}-\displaystyle\frac{1}{25}\\
+  \end{pmatrix}^{-1}
+  \times
+  \begin{pmatrix}
+    -0.95\\
+    \\
+    -0.50\\
+    \\
+    0.50-\displaystyle\frac{130}{25}\\
+    
+  \end{pmatrix}
+  =
+\]
+\[
+  =
+  \begin{pmatrix}
+    -32.94851176 & -21.2887662 &  -3.94863178\\
+    -21.2887662 & -38.95391263 &  -7.22515602\\
+    -3.94863178 &  -7.22515602 & -12.09793567\\
+  \end{pmatrix}
+  \times
+  \begin{pmatrix}
+    -0.95\\
+    -0.5\\
+    -4.7\\
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    60.50403865\\
+    73.65951752\\
+    64.22407585\\
+  \end{pmatrix}
+\]
+\[
+  U_A = 60.50403865V
+\]
+\[
+  U_B = 73.65951752V
+\]
+\[
+  U_C = U_{R4} = \textbf{64.22407585V}
+\]
+\[
+  I_{R4} = \displaystyle\frac{U_{R4}}{R_4}
+  = \displaystyle\frac{64.22407585}{28}
+  = \textbf{2.2937169946428573A}
+\]
+
