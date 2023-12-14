@@ -4,4 +4,4 @@
 \contentsline {section}{\numberline {3}Příklad 3}{5}{section.3}%
 \contentsline {section}{\numberline {4}Příklad 4}{7}{section.4}%
 \contentsline {section}{\numberline {5}Příklad 5}{8}{section.5}%
-\contentsline {section}{\numberline {6}Shrnutí výsledků}{9}{section.6}%
+\contentsline {section}{\numberline {6}Shrnutí výsledků}{10}{section.6}%
