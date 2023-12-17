@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.5)  16 DEC 2023 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.5)  17 DEC 2023 01:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,8 +1020,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-[8{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc} <./fig/Pr4.pdf>]) [9]
-(./05-pr5.tex
+[8{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc} <./fig/Pr4.pdf>]
+Overfull \hbox (9.59239pt too wide) in paragraph at lines 103--107
+\T1/lmr/m/n/10.95 = $\OMS/lmsy/m/n/10.95 j\OT1/lmr/m/n/10.95 32\OML/lmm/m/it/10
+.95 :\OT1/lmr/m/n/10.95 98672286269283\OML/lmm/m/it/10.95 j \OMS/lmsy/m/n/10.95
+ ^^A \OT1/lmr/m/n/10.95 ((\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m
+/it/10.95 :\OT1/lmr/m/n/10.95 008659790520641808 \OMS/lmsy/m/n/10.95 ^^@ \OT1/l
+mr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 10292173483319066\OML/lmm
+/m/it/10.95 j\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 ^^@ \OT1/lmr/m/n/10.95 (\
+OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.
+95 044860513630751414 +
+ []
+
+
+Overfull \hbox (24.8065pt too wide) detected at line 113
+\OML/lmm/m/it/10.95 ' \OT1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95 arctan[] \OT1/lm
+r/m/n/10.95 = \OML/lmm/m/it/10.95 arctan[] \OT1/lmr/m/n/10.95 = 0\OML/lmm/m/it/
+10.95 :\OT1/lmr/m/n/10.95 28591817765805744 \OML/lmm/m/it/10.95 rad \OT1/lmr/m/
+n/10.95 = [][]
+ []
+
+) [9] (./05-pr5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 
  []
@@ -1057,7 +1076,7 @@ Package rerunfilecheck Info: File `00-projekt.out' has not changed.
 Here is how much of TeX's memory you used:
  41726 strings out of 475735
  1000124 string characters out of 5784786
- 1868759 words of memory out of 5000000
+ 1867759 words of memory out of 5000000
  61967 multiletter control sequences out of 15000+600000
  564417 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1072,7 +1091,7 @@ fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00-projekt.pdf (12 pages, 400772 bytes).
+Output written on 00-projekt.pdf (12 pages, 400186 bytes).
 PDF statistics:
  270 PDF objects out of 1000 (max. 8388607)
  195 compressed objects within 2 object streams
